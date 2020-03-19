@@ -23,7 +23,7 @@ get_header(); ?>
           </header><!-- .entry-header -->
 
           <div class="entry-content">
-            <?php the_content( esc_html__( 'Continue reading &rarr;', 'arke' ) ); ?>
+            <?php the_content( esc_html__( 'Continue reading &rarr;', 'my-custom-theme' ) ); ?>
           </div><!-- .entry-content -->
 
         </article><!-- #post-## -->

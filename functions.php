@@ -1,10 +1,24 @@
 <?php
 
-// This theme uses wp_nav_menu() in one location.
-register_nav_menus(
+/**
+ * Register one navigation menu.
+ */
+ register_nav_menus(
 	array(
 		'menu-1' => esc_html__( 'Primary Menu', 'my-custom-theme' ),
 	)
 );
 
+/**
+ * Register one sidebar.
+ */
+function my_custom_theme_sidebar() {
+    register_sidebar( array(
+        'name' => __( 'Primary Sidebar', 'my-custom-theme' ),
+        'id'   => 'sidebar-1',
+    ) );
+}
+add_action( 'widgets_init', 'my_custom_theme_sidebar' );
+
+// Add featured image functionality.
 add_theme_support( 'post-thumbnails' );
