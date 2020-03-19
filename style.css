@@ -15,7 +15,7 @@ body {
     width: 960px;
     margin: auto;
     line-height: 1.65;
-    font-family: Georgia,Times,Times New Roman,serif;
+    font-family: Georgia, Times, Times New Roman, serif;
 }
 
 h1,
@@ -87,11 +87,14 @@ article {
     float: left;
     list-style: none;
     margin-top: 2em;
+	font-size: 14px
 }
 
 .widgettitle {
     border-top: 2px solid;
     border-bottom: 1px solid #ccc;
+    padding: .25rem 0;
+    font-size: 1.25rem
 }
 
 .widget {
