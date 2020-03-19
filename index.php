@@ -18,10 +18,10 @@ get_header(); ?>
 
         <article <?php post_class(); ?>>
 
-		  <?php the_post_thumbnail(); ?>
+		  <?php the_post_thumbnail( 'my-custom-image-size' ); ?>
 
           <header class="entry-header">
-            <?php the_title( '<h2 class="entry-title">', '</h2>' ); ?>
+			  <?php the_title( '<h2 class="entry-title"><a href="' . esc_url( get_permalink() ) . '">', '</a></h2>' ); ?>
           </header><!-- .entry-header -->
 
           <div class="entry-content">

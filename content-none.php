@@ -18,4 +18,3 @@
   </div><!-- .entry-content -->
 
 </article><!-- .no-results -->
-<?php

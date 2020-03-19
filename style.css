@@ -10,3 +10,99 @@ License URI: https://www.gnu.org/licenses/gpl-2.0.html
 Text Domain: my-custom-theme
 Tags: custom-background
 */
+
+body {
+    width: 960px;
+    margin: auto;
+    line-height: 1.65;
+    font-family: Georgia,Times,Times New Roman,serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.menu {
+    font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+}
+
+a {
+	color: #073979;
+}
+
+.site-header {
+    border-bottom: 2px solid
+}
+
+.site-title {
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: .25rem;
+    line-height: 1;
+}
+
+.site-title a {
+    text-decoration: none;
+    color: black
+}
+
+.site-description {
+    margin-top: 0;
+    color: #8e8e8e;
+}
+
+.menu {
+    border-top: 1px solid #ccc;
+}
+
+.menu ul {
+    list-style: none;
+    padding: 0;
+}
+
+.menu ul li a {
+    text-decoration: none;
+    color: #696969;
+}
+
+.menu ul li a:hover {
+    text-decoration: underline;
+    color: #000;
+}
+
+.site-content {
+    width: 640px;
+    float: left;
+}
+
+article {
+	margin-top: 2rem;
+	margin-bottom: 2rem;
+}
+
+.sidebar {
+    width: 280px;
+    float: left;
+    list-style: none;
+    margin-top: 2em;
+}
+
+.widgettitle {
+    border-top: 2px solid;
+    border-bottom: 1px solid #ccc;
+}
+
+.widget {
+    margin-bottom: 3rem
+}
+
+label {
+	display: block
+}
+
+.commentlist {
+	list-style: none;
+	padding-left: 0;
+}

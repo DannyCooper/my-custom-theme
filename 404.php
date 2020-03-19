@@ -6,7 +6,7 @@
  * @license    http://opensource.org/licenses/gpl-2.0.php GNU Public License
  */
 
-<?php get_header(); ?>
+get_header(); ?>
   <div class="site-content">
 	  <article class="no-results">
 
@@ -20,5 +20,6 @@
 
 	  </article><!-- .no-results -->
 	</div><!-- .site-content -->
-<?php get_sidebar(); ?>
-<?php get_footer(); ?>
+<?php
+get_sidebar();
+get_footer();

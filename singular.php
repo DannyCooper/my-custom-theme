@@ -16,7 +16,7 @@ get_header(); ?>
 
     <article <?php post_class(); ?>>
 
-	  <?php the_post_thumbnail(); ?>
+	  <?php the_post_thumbnail( 'my-custom-image-size' ); ?>
 
       <header class="entry-header">
         <?php the_title( '<h1 class="entry-title">', '</h1>' ); ?>
