@@ -1,3 +1,12 @@
+<?php
+/**
+ * A "Content Not Found" template part.
+ *
+ * @copyright  Copyright (c) 2020, Danny Cooper
+ * @license    http://opensource.org/licenses/gpl-2.0.php GNU Public License
+ */
+?>
+
 <article class="no-results">
 
   <header class="entry-header">

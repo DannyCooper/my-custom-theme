@@ -1,3 +1,12 @@
+<?php
+/**
+ * The header template part.
+ *
+ * @copyright  Copyright (c) 2020, Danny Cooper
+ * @license    http://opensource.org/licenses/gpl-2.0.php GNU Public License
+ */
+?>
+
 <!DOCTYPE html>
 <html <?php language_attributes(); ?>>
 	<head>

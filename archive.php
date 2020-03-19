@@ -1,5 +1,19 @@
-<?php get_header(); ?>
+<?php
+/**
+ * The template for displaying archive pages.
+ *
+ * @copyright  Copyright (c) 2020, Danny Cooper
+ * @license    http://opensource.org/licenses/gpl-2.0.php GNU Public License
+ */
+
+get_header(); ?>
   <div class="site-content">
+	  <header class="page-header">
+		  <?php
+		  the_archive_title( '<h1 class="page-title">', '</h1>' );
+		  the_archive_description( '<div class="archive-description">', '</div>' );
+		  ?>
+	  </header><!-- .page-header -->
     <?php
     if ( have_posts() ) :
 
@@ -29,6 +43,8 @@
         endif;
 
       endwhile;
+
+	  the_posts_navigation();
 
     else :
       get_template_part( 'content-none' );

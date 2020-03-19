@@ -1,3 +1,11 @@
+<?php
+/**
+ * The template for displaying 404 page.
+ *
+ * @copyright  Copyright (c) 2020, Danny Cooper
+ * @license    http://opensource.org/licenses/gpl-2.0.php GNU Public License
+ */
+
 <?php get_header(); ?>
   <div class="site-content">
 	  <article class="no-results">
@@ -8,7 +16,6 @@
 
 	    <div class="entry-content">
 			<p><?php esc_html_e( 'It looks like nothing was found at this location.', 'my-custom-theme' ); ?></p>
-
 	    </div><!-- .entry-content -->
 
 	  </article><!-- .no-results -->
