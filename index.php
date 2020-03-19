@@ -13,7 +13,7 @@
 		  <?php the_post_thumbnail(); ?>
 
           <header class="entry-header">
-            <?php the_title( '<h1 class="entry-title">', '</h1>' ); ?>
+            <?php the_title( '<h2 class="entry-title">', '</h2>' ); ?>
           </header><!-- .entry-header -->
 
           <div class="entry-content">
@@ -35,5 +35,6 @@
     endif;
 	?>
 	</div><!-- .site-content -->
-<?php get_sidebar(); ?>
-<?php get_footer(); ?>
+<?php
+get_sidebar();
+get_footer();

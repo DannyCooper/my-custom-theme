@@ -5,7 +5,7 @@
   </header><!-- .entry-header -->
 
   <div class="entry-content">
-	<?php the_content( esc_html__( 'Continue reading &rarr;', 'my-custom-theme' ) ); ?>
+	  <p><?php esc_html_e( 'It looks like nothing was found at this location.', 'my-custom-theme' ); ?></p>
   </div><!-- .entry-content -->
 
 </article><!-- .no-results -->
